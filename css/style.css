@@ -1,0 +1,78 @@
+
+.form
+{
+	width: 350px;
+	background: linear-gradient(#003673,#2570b7);
+	padding: 20px;
+	margin: 30px auto;
+	font-family: arial;
+	box-shadow: 5px -5px 0px 5px #fd009f;
+	border-radius: 10px;
+}
+
+.form-group
+{
+	margin: 15px;
+	color: #fff;
+}
+
+.form-group label
+{
+	margin-bottom: 5px;
+}
+
+.form-group>label, .form-group>input, .form-group>select
+{
+	display: block;
+}
+
+.form-group>input, .form-group>select
+{
+	height: 35px;
+	width: 100%;
+	text-indent: 10px;
+	border: none;
+}
+
+
+.btn-envoyer 
+{
+	background-color: #fd009f;
+	border-style: none;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: arial;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 5px;
+	box-shadow: 0px 3px 3px #fff;
+	font-weight: bold;
+	padding: 0 20px;
+}
+
+.btn-envoyer:hover
+{
+	cursor: pointer;
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+input[readonly]:hover
+{
+	cursor: not-allowed;
+}
+
+
+
+@media all and (max-width: 480px)
+{
+	.form
+	{
+		width: auto;
+		margin: 30px;
+	}
+}
